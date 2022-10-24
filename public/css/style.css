@@ -1,0 +1,138 @@
+body {
+  background-color: rgb(230, 230, 230);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  /* border: solid red 1px; */
+}
+
+@media only screen and (min-width: 1024px) {
+  .cv {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 1%;
+    background-color: rgb(250, 250, 250);
+    border-radius: 5px;
+  }
+
+  .cv .decoracion {
+    position: absolute;
+    background-color: rgba(0, 44, 65, 255);
+    width: 15%;
+    z-index: 0;
+    border-radius: 5px;
+  }
+
+  .cv .curriculum .texto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .cv .texto {
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+    background-color: rgba(254, 189, 23, 255);
+    height: 180px;
+  }
+
+  .cv .curriculum {
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .cv .texto p {
+    width: 20%;
+  }
+
+  .cv .curriculum img {
+    float: right;
+    /* margin-top: -3.8%; */
+    width: 13%;
+    height: 180px;
+  }
+
+  .cv .info {
+    margin-top: 10%;
+    border: solid black 0.5px;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 5px;
+  }
+
+  .cv .info2 {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .cv {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 1%;
+    background-color: rgb(250, 250, 250);
+    border-radius: 5px;
+  }
+
+  .cv .decoracion {
+    position: absolute;
+    background-color: rgba(0, 44, 65, 255);
+    width: 20%;
+    height: 67.5%;
+    z-index: 0;
+    border-radius: 5px;
+  }
+
+  .cv .curriculum {
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .cu .curriculum .texto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .cv .texto {
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+    background-color: rgba(254, 189, 23, 255);
+    height: 180px;
+  }
+
+  .cv .texto p {
+    width: 20%;
+  }
+
+  .cv .curriculum img {
+    float: right;
+    /* margin-top: -3.8%; */
+    width: 13%;
+    height: 180px;
+  }
+
+  .cv .info {
+    margin-top: 2%;
+    border: solid black 0.5px;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 5px;
+  }
+
+  .cv .info2 {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}

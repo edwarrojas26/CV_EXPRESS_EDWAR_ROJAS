@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "sweetalert": "^2.1.2"
+  },
+  "name": "cv_express_edwar_rojas",
+  "version": "1.0.0",
+  "description": "Introduccion a javascript backend",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "micom": "node index",
+    "dev": "nodemon --watch ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwarrojas26/CV_EXPRESS_EDWAR_ROJAS.git"
+  },
+  "author": "Edwar Rojas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edwarrojas26/CV_EXPRESS_EDWAR_ROJAS/issues"
+  },
+  "homepage": "https://github.com/edwarrojas26/CV_EXPRESS_EDWAR_ROJAS#readme"
+}
