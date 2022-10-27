@@ -22,11 +22,11 @@ body {
   .cv .decoracion {
     position: absolute;
     background-color: rgba(0, 44, 65, 255);
-    width: 15%;
+    width: 20%;
+    height: 76%;
     z-index: 0;
     border-radius: 5px;
   }
-
   .cv .curriculum .texto {
     display: flex;
     flex-direction: row;
@@ -91,6 +91,7 @@ body {
     /* margin-top: -3.8%; */
     width: 13%;
     height: 180px;
+    display: block;
   }
 
   .cv .info {
@@ -99,11 +100,21 @@ body {
     margin-left: 3%;
     margin-right: 3%;
     padding: 5px;
+    position: relative;
+    z-index: 1;
   }
 
   .cv .info2 {
-    padding-left: 5%;
+    padding-left: 26%;
     padding-right: 5%;
+    position: relative;
+    z-index: 1;
+    font-size: 1.2;
+  }
+
+  .curriculum .texto .enlaces h3,
+  .enlace1 h3 {
+    font-size: 1.4em;
   }
 }
 
@@ -118,11 +129,11 @@ body {
     border-radius: 5px;
   }
 
-  .cv .decoracion {
+  .decoracion {
     position: absolute;
     background-color: rgba(0, 44, 65, 255);
     width: 20%;
-    height: 72%;
+    height: 88%;
     z-index: 0;
     border-radius: 5px;
   }
@@ -152,23 +163,65 @@ body {
     width: 20%;
   }
 
-  .cv .curriculum img {
+  .curriculum img {
     float: right;
     /* margin-top: -3.8%; */
-    width: 13%;
-    height: 180px;
+    width: 20%;
+    height: 100px;
   }
 
   .cv .info {
     margin-top: 2%;
     border: solid black 0.5px;
-    margin-left: 3%;
+    margin-left: 24%;
     margin-right: 3%;
     padding: 5px;
   }
 
-  .cv .info2 {
-    padding-left: 5%;
+  .info2 {
+    padding-left: 26%;
     padding-right: 5%;
+    font-size: 1.2;
+  }
+
+  .cv .info2 p b {
+    font-size: 1.2em;
+  }
+
+  .curriculum .texto .enlaces i {
+    color: black;
+    font-size: 1em;
+  }
+
+  .curriculum .texto .enlaces .enlace1,
+  .enlace2 {
+    margin-left: 10%;
+  }
+
+  .curriculum .texto .enlaces .enlace3 {
+    margin-right: 20%;
+    margin-left: 10%;
+  }
+
+  .curriculum .texto .enlaces {
+    color: black;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+  }
+
+  .texto .enlace1 h3,
+  .enlace2 h3,
+  .enlace3 h3 {
+    font-size: 0.8em;
+  }
+
+  .curriculum .texto .textos .titulo {
+    font-size: 3em;
+  }
+
+  .curriculum .texto .textos .subtitulo {
+    font-size: 1.5em;
+    color: white;
   }
 }

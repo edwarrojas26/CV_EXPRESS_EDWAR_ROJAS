@@ -22,8 +22,8 @@ body {
   .cv .decoracion {
     position: absolute;
     background-color: rgba(0, 44, 65, 255);
-    width: 15%;
-    height: 150%;
+    width: 20%;
+    height: 63%;
     z-index: 0;
     border-radius: 5px;
   }
@@ -98,14 +98,45 @@ body {
   .cv .info {
     margin-top: 10%;
     border: solid black 0.5px;
-    margin-left: 26%;
+    margin-left: 3%;
     margin-right: 3%;
     padding: 5px;
+    position: relative;
+    z-index: 1;
   }
 
   .cv .info2 {
+    padding-left: 30%;
+  }
+
+  .cv .info2 .daticos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 12%;
+  }
+
+  .cv .info2 .daticos i {
+    font-size: 1.05em;
+  }
+
+  .cv .info2 .face,
+  .whats,
+  .mail {
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+    font-size: 2em;
+  }
+
+  .cv .info2 .face a,
+  .whats a,
+  .mail a {
     padding-left: 26%;
     padding-right: 5%;
+    font-size: 2em;
+    text-decoration: none;
+    color: black;
   }
 
   .curriculum .texto .enlaces h3,
@@ -129,10 +160,11 @@ body {
     position: absolute;
     background-color: rgba(0, 44, 65, 255);
     width: 20%;
-    height: 195%;
+    height: 8%;
     z-index: 0;
     border-radius: 5px;
   }
+
   .cv .curriculum {
     border-radius: 5px;
     position: relative;
@@ -166,34 +198,16 @@ body {
   }
 
   .cv .info {
-    margin-top: 10%;
+    margin-top: 2%;
     border: solid black 0.5px;
     margin-left: 24%;
     margin-right: 3%;
     padding: 5px;
   }
 
-  .cv .info3 {
-    margin-top: 1%;
-    border: solid black 1px;
-    margin-left: 24%;
-    margin-right: 3%;
-    padding: 5px;
-  }
-
   .cv .info2 {
-    padding-left: 26%;
-    padding-right: 5%;
-  }
-
-  .info2 {
-    padding-left: 26%;
-    padding-right: 5%;
-    font-size: 1.2;
-  }
-
-  .cv .info2 p b {
-    font-size: 1.2em;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .curriculum .texto .enlaces i {
@@ -232,4 +246,45 @@ body {
     font-size: 1.5em;
     color: white;
   }
+
+  .info2 .daticos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 12%;
+  }
+
+  .info2 .daticos i {
+    font-size: 0.5em;
+  }
+  .cv .info2 {
+    margin-left: 2%;
+  }
+
+  .cv .info2 .face1,
+  .whats1,
+  .mail1 {
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+    z-index: 1;
+    font-size: 3em;
+  }
+
+  .cv .info2 .face1 a,
+  .whats1 a,
+  .mail1 a {
+    padding-left: 26%;
+    padding-right: 5%;
+    font-size: 1em;
+    text-decoration: none;
+  }
+
+  /* {
+    padding-left: 26%;
+    padding-right: 5%;
+    font-size: 3em;
+    text-decoration: none;
+    color: black;
+  } */
 }
