@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(230, 230, 230);
+  background-color: rgba(202, 193, 193, 0.993);
 }
 
 * {
@@ -31,6 +31,41 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+
+  .cv .curriculum .texto .textos {
+    padding: 2%;
+  }
+
+  .cv .curriculum .texto .enlaces i {
+    color: black;
+    font-size: 2em;
+  }
+
+  .cv .curriculum .texto .enlaces .enlace1,
+  .enlace2 {
+    margin-left: 10%;
+  }
+
+  .cv .curriculum .texto .enlaces .enlace3 {
+    margin-right: 20%;
+    margin-left: 10%;
+  }
+
+  .cv .curriculum .texto .enlaces {
+    color: black;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+  }
+
+  .cv .curriculum .texto .textos .titulo {
+    font-size: 3em;
+  }
+
+  .cv .curriculum .texto .textos .subtitulo {
+    font-size: 1.5em;
+    color: white;
   }
 
   .cv .texto {
@@ -87,7 +122,7 @@ body {
     position: absolute;
     background-color: rgba(0, 44, 65, 255);
     width: 20%;
-    height: 67.5%;
+    height: 72%;
     z-index: 0;
     border-radius: 5px;
   }
@@ -110,6 +145,7 @@ body {
     margin-right: 4%;
     background-color: rgba(254, 189, 23, 255);
     height: 180px;
+    padding: 2%;
   }
 
   .cv .texto p {
