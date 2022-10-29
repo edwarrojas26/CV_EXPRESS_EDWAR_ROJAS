@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Island+Moments&family=Raleway:ital,wght@1,300&display=swap");
+
 body {
   background-color: rgba(202, 193, 193, 0.993);
+  font-family: "Raleway", sans-serif;
 }
 
 * {
@@ -61,10 +64,12 @@ body {
   }
 
   .cv .curriculum .texto .textos .titulo {
+    font-family: "Dancing Script", cursive;
     font-size: 3em;
   }
 
   .cv .curriculum .texto .textos .subtitulo {
+    font-family: "Dancing Script", cursive;
     font-size: 1.5em;
     color: white;
   }
@@ -225,10 +230,12 @@ body {
   }
 
   .curriculum .texto .textos .titulo {
+    font-family: "Dancing Script", cursive;
     font-size: 3em;
   }
 
   .curriculum .texto .textos .subtitulo {
+    font-family: "Dancing Script", cursive;
     font-size: 1.5em;
     color: white;
   }
